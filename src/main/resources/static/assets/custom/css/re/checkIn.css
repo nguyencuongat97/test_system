@@ -1,0 +1,54 @@
+ /*.input-group{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	width: 150px;
+}*/
+.checkin-button{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 255px;
+}
+.btn{
+	border-radius: 10px;
+}
+.count{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 301px;
+}
+input[name="count"]{
+	height: 26px;
+    color: inherit;
+    width: 60px;
+    border: solid 1px;
+    border-radius: 2px;
+    border-color: #777773;
+}
+.sn-mac-button{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+	left: 446px;
+}
+.remark-button{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+	left: 270px;
+}
+.fa-button{
+	display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 184px;
+}
+.chart{
+	height: 300px;
+	/*border: solid 1px #928e8e;*/
+	padding: 0px;
+    background: #333;
+}

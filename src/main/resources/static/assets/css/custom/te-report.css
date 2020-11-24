@@ -1,0 +1,94 @@
+.model-name.active{
+    background-color: #B7D2F2 !important;
+    font-weight: bold;
+    box-shadow: 0.15rem 0.15rem 0.1rem #cccccc;
+}
+
+#tblModel tr td{
+    text-align: center;
+    padding: 3px;
+    /* font-weight: bold; */
+    background-color: #fff;
+    cursor: pointer;
+}
+#tblModel thead th{
+    /* background-color: #76eaff; */
+    background-color: #00d8ff;
+    padding: 3px 5px;
+    text-align: center;
+}
+.table-sticky thead th {
+    position: -webkit-sticky;
+    position : sticky;
+    top : -1px;
+}
+/* here is the trick */
+.table-sticky tbody:nth-of-type(1) tr:nth-of-type(1) td {
+    border-top: none !important;
+}
+.table-sticky thead th {
+    border-top: none !important;
+    border-bottom: none !important;
+    box-shadow: inset 0px 0px 0 #272727,
+                inset 0 -1px 0 #272727;
+}
+#tblModel > tbody > tr:nth-of-type(odd) > td {
+    background-color: #ffff86;
+}
+#tblDetail thead th {
+    background-color: #00d8ff;
+    padding: 3px 5px;
+    text-align: center;
+    border: 1px solid #272727;
+}
+#tblDetail thead tr:nth-of-type(2) th{
+    background-color: #00d8ff;
+    padding: 3px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    position: -webkit-sticky;
+    position : sticky;
+    top : 26px;
+    box-shadow: inset 0px 0px 0 #272727,
+                inset 0px -1px 0 #272727;
+}
+#tblDetail tbody tr td {
+    background-color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid #272727;
+}
+.rate-danger{
+    background-color: #E66273 !important;
+}
+.rate-warning{
+    background-color: #FFFF00 !important;
+}
+.rate-success{
+    background-color:#29be6e !important;
+}
+.loader{
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(10, 10, 10, 0.8) 
+    url('/assets/images/loadingg.gif') 
+    50% 50% 
+    no-repeat;
+}
+.popover{
+    margin-top:85px;
+    background-color: #FFFFFF;
+    border:1px solid #272727;
+    color:#272727;
+    box-shadow: 0.5rem 0.5rem 2rem #272727;
+}
+.popover-content {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(183, 210, 242, 0.65);
+}

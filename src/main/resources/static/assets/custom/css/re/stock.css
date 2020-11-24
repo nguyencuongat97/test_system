@@ -1,0 +1,49 @@
+/* #header{
+	text-align: center;
+	color: black;
+	font-size: 24px;
+} */
+ body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.bonePile{
+	display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 310px;
+	
+}
+.bc8m{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 350px;
+}
+.rma{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 400px;
+}
+.onlineWip{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+	left: 440px;
+}
+.btn{
+	border-radius: 10px;
+}
+.input{
+	height: 36px;
+    color: inherit;
+    width: 60px;
+	padding-left: 5px;
+    border: solid 1px;
+    border-radius: 2px;
+    border-color: #777773;
+}
+/* .chart{
+	height: 350px; 
+	border: solid 1px #928e8e;
+} */

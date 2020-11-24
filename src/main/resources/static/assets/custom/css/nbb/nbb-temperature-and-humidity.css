@@ -1,0 +1,169 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('/assets/fonts/digital-7 (italic).ttf');
+}
+.table-sticky thead th {
+    position: -webkit-sticky;
+    position : sticky;
+    top : -1px;
+}
+/* here is the trick */
+.table-sticky tbody:nth-of-type(1) tr:nth-of-type(1) td {
+    border-top: none !important;
+}
+.table-sticky thead th {
+    border-top: none !important;
+    border-bottom: none !important;
+    box-shadow: inset 0 1px 0 #fff,
+                inset 0 -1px 0 #fff;
+}
+
+#imgLayout{
+    margin: auto;
+    width: 1366px;
+    height: 525px;
+}
+.btnView{
+    min-width: 4rem; 
+    height: 2.5rem; 
+    padding: 0; 
+    border: 1px solid #000;
+    position: absolute;
+    border-radius: 0.7rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #272727;
+}
+.btnViewName{
+    width: 6.5rem;
+    padding: 0 0.5rem;
+    position: absolute;
+    border-radius: 0.7rem;
+    border-right: 0.2rem solid #000000;
+    border-bottom: 0.2rem solid #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+    background-color: #0A2251;
+    box-shadow: 0.5rem 0.5rem 2rem #272727;
+    background-image: linear-gradient(#0A2251 , #0b3e9e);
+}
+.btnViewName:hover{
+    color: #fff;
+}
+.btnView i{
+    font-size: 2rem;
+}
+.spDigital{
+    font-family:digital-clock-font; 
+    font-size: 1.4rem; 
+    color: #ff0000;
+}
+
+.pulse {
+  -webkit-animation: pulse infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation: pulse infinite;
+  animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+#btnSetup{
+    position: absolute; 
+    top: 7px; 
+    right: 5px;
+    background: rgba(51, 51, 51, 0.5);
+    padding: 5px 10px;
+    z-index: 2;
+}
+
+#btnSetup:hover{
+    background: #272727;
+    color: #ffffff;
+}
+#btnSetup.active{
+    background: #272727;
+    color: #ffffff;
+}
+
+.nav-tools{
+    display: none;
+    position: absolute;
+    top: 2px;
+    background-color: rgba(51, 51, 51, 0.7);
+    min-height: 4rem;
+    padding: 5px;
+    z-index: 1;
+}
+.div-drag{
+    position: absolute; 
+    right: auto; 
+    bottom: auto; 
+}
+.btn-border{
+    border: 1px solid; 
+    padding: 0.4rem 0.8rem;
+}
+#view-edit{
+    border: 1px solid #00BCD4;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    min-height: 4rem;
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: -2rem;
+    background: rgba(209, 209, 209, 0.8);
+}
+.input-setup{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 100%;
+}
+.imgIcon{
+    width: 1.6rem;
+    height: 1.4rem;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+::-webkit-scrollbar {
+    /* display: none; */
+}

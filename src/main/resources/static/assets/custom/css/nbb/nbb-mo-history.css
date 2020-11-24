@@ -1,0 +1,254 @@
+    .btn{
+        transition: all 0.5s;
+    }
+
+    .btn:hover{
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+    .btn:active{
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    #header{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        background: #333;
+        color: #ccc;
+    }
+    .table-header-orange thead tr th{
+        background: #F79646 !important;
+        color: #272727;
+        padding: 5px 5px;
+        text-align: center;
+    }
+    .table-header-orange tbody tr:hover td{
+        background: #444444;
+    }
+    .table-header-orange tbody tr td a{
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    .table-header-orange thead tr th a{
+        color: #272727;
+    }
+    .spMO {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    #tblDetail tr th:nth-of-type(1){
+        left: -1px; 
+        z-index:10; 
+        position:sticky;
+        border: none !important;
+        box-shadow: inset 2px 2px 0 #fff,
+                    inset -1px -1px 0 #fff;
+    }
+    #tblDetail tr th:nth-of-type(2){
+        left: 63px; 
+        z-index:10; 
+        position:sticky;
+        border-right: none !important;
+        box-shadow: inset 0px 2px 0 #fff,
+                    inset -1px -1px 0 #fff;
+    }
+    #tblDetail tr th:nth-of-type(3){
+        left: 127px; 
+        z-index:10; 
+        position:sticky;
+        border-right: none !important;
+        box-shadow: inset 0px 2px 0 #fff,
+                    inset -1px -1px 0 #fff;
+    }
+    #tblDetail tr td:nth-of-type(1){
+        background: #272727;
+        left: -1px; 
+        position:sticky;
+        border: none !important;
+        box-shadow: inset 2px 0px 0 #fff,
+                    inset -1px 1px 0 #fff;
+    }
+    #tblDetail tr td:nth-of-type(2){
+        position: sticky;
+        left: 64px;
+        background-color: #272727;
+        border-right: none !important;
+        box-shadow: inset 0px 0px 0 #fff,
+                    inset -1px 0px 0 #fff;
+    }
+    #tblDetail tr td:nth-of-type(3){
+        left: 129px; 
+        background-color: #272727;
+        position: sticky;
+        border-right: none !important;
+        box-shadow: inset 0px 0px 0 #fff,
+                    inset -1px 0px 0 #fff;
+    }
+    .noData{
+        /* background: #999; */
+        color: #333;
+    }
+    .noDataNum{
+        color: #555;
+    }
+    .haveData{
+        background-color: #555;
+    }
+    .drlMenu{
+        margin-left: 15px;
+        float: left;
+    }
+        .table-sticky thead th {
+            position: -webkit-sticky;
+            position : sticky;
+            top : -1px;
+        }
+        /* here is the trick */
+        .table-sticky tbody:nth-of-type(1) tr:nth-of-type(1) td {
+            border-top: none !important;
+        }
+        .table-sticky thead th {
+            border-top: none !important;
+            border-bottom: none !important;
+            box-shadow: inset 0 1px 0 #fff,
+                        inset 0 -1px 0 #fff !important;
+        }
+
+        /*Preload*/
+    /* Absolute Center Spinner */
+    .loader {
+    position: fixed;
+    z-index: 999;
+    height: 2.5em;
+    width: 2.5em;
+    overflow: visible;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+
+    /* Transparent Overlay */
+    .loader:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    /* :not(:required) hides these rules from IE9 and below */
+    .loader:not(:required) {
+    /* hide "loader..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    }
+
+    .loader:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.9) 1.5em 0 0 0, rgba(255, 255, 255, 0.9) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.9) 0 1.5em 0 0, rgba(255, 255, 255, 0.9) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.9) 0 -1.5em 0 0, rgba(255, 255, 255, 0.9) 1.1em -1.1em 0 0;
+    box-shadow: rgba(255, 255, 255, 0.9) 1.5em 0 0 0, rgba(255, 255, 255, 0.9) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.9) 0 1.5em 0 0, rgba(255, 255, 255, 0.9) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.9) -1.5em 0 0 0, rgba(255, 255, 255, 0.9) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.9) 0 -1.5em 0 0, rgba(255, 255, 255, 0.9) 1.1em -1.1em 0 0;
+    }
+
+    /* Animation */
+    @-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    }
+    @-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    }
+    @-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    }
+    @keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    }
+
+    .bootstrap-select.btn-group .btn .filter-option {
+        color: #FFF;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .bootstrap-select.btn-group .btn .caret {
+        width: 50px;
+    }
+    .bootstrap-select > .btn {
+        border-bottom: none !important;
+        border-radius: 5px;
+    }

@@ -1,0 +1,130 @@
+/*.input-group{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	width: 150px;
+}*/
+.bc8m-button{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 255px;
+}
+.btn{
+	border-radius: 10px;
+}
+.count{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 301px;
+}
+input[name="count"]{
+	height: 26px;
+    color: inherit;
+    width: 60px;
+    border: solid 1px;
+    border-radius: 2px;
+    border-color: #777773;
+}
+.chart-xs{
+	height: 300px !important;
+}
+th{
+	text-align: center;
+}
+
+.pieChart{
+    display: none;
+}
+
+.table-custom > thead > tr > th,
+.table-custom > tbody > tr > th,
+.tabl-custom > tfoot > tr > th,
+.table-custom > thead > tr > td,
+.table-custom > tbody > tr > td,
+.table-custom > tfoot > tr > td {
+  padding: 5px 5px;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.chooseModelExport .dropdown-toggle{
+    color: #fff;
+    border-bottom: none;
+    height: 30px;
+}
+.chooseModelExport .dropdown-toggle .bs-caret .caret{
+   padding-right: 20px;
+   color: #fff;
+}
+/* .chooseModelExport.open{
+    height: 30px;
+} */
+.chooseModelExport .dropdown-toggle .filter-option{
+    color: #fff;
+    padding-left: 5px;
+}
+.dropdown-menu.open{
+    background: #444;
+}
+.dropdown-menu.inner{
+    background: #444;
+}
+.bs-actionsbox .btn-group button {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+.chooseModelExport .dropdown-menu .bs-searchbox{
+    color: #fff;
+}
+.chooseModelExport .dropdown-menu .bs-searchbox input{
+    color: #fff;
+}
+.chooseModelExport .dropdown-menu .bs-actionsbox .btn-group button{
+   padding-left: 5px;
+   border-radius: 3px !important;
+    border-radius: 3px !important;
+}
+.bootstrap-select.btn-group .no-results {
+    background: #999;
+}
+.bootstrap-select.btn-group .dropdown-menu > li > a .check-mark {
+    right: 15px;
+    /* color: #fff !important; */
+}
+/* .dropdown-menu.open .dropdown-menu.inner 
+li.active a .glyphicon.glyphicon-ok.check-mark {
+    color: #fff !important;
+} */
+.bootstrap-select.btn-group .dropdown-menu > li > a .active{
+    right: 15px;
+    color: #fff !important;
+}
+.dropdown-menu.inner > li a{
+    background-color: #444;
+    color: #fff;  
+}
+.dropdown-menu.inner{
+    background-color: #444;
+    color: #fff;  
+}
+.dropdown-menu > .active{
+    background-color: #999;
+    
+}
+.dropdown-menu.inner li a:hover{
+    color: #ccc;
+    background: #696969;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover,
+.pagination > .active > span:hover, .pagination > 
+.active > a:focus, .pagination > .active > span:focus {
+    background-color: #999;
+    border-color: #999;
+}
+
+

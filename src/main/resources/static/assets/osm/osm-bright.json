@@ -1,0 +1,23 @@
+{
+  "tilejson": "2.0.0",
+  "name": "OSM Bright",
+  "attribution": "<a href=\"http://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"http://www.openstreetmap.org/about/\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+  "minzoom": 0,
+  "maxzoom": 20,
+  "bounds": [
+    102.0409,
+    7.730748,
+    111.6685,
+    23.47731
+  ],
+  "format": "png",
+  "type": "baselayer",
+  "tiles": [
+    "http://10.224.56.73:8080/hot/{z}/{x}/{y}.png"
+  ],
+  "center": [
+    106.8547,
+    15.604029,
+    7
+  ]
+}

@@ -1,0 +1,143 @@
+    #header {
+        font-size: 20px;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .direct-chat-text {
+        border-radius: .3rem;
+        background: #dddddd;
+        border: 1px solid #d2d6de;
+        color: #444;
+        margin: 5px 5px 0 5px;;
+        padding: 5px 10px;
+        text-align: left;
+    }
+    .direct-chat-text::before {
+        border-width: 6px;
+        margin-top: -6px;
+    }
+    .direct-chat-text::after {
+        border-width: 5px;
+        margin-top: -5px;
+    }
+    .direct-chat-messages .direct-chat-msg:nth-child(2n-1) .direct-chat-text{
+        background-color: #f2f2f2;
+    }
+    .drlMenu{
+        margin-left: 1.5rem;
+        float: left;
+    }
+    .table-sm-custom > thead > tr > th, .table-sm-custom > tbody > tr > th, .table-sm-custom > tfoot > tr > th, .table-sm-custom > thead > tr > td, .table-sm-custom > tbody > tr > td, .table-sm-custom > tfoot > tr > td {
+        padding: 0px 5px;
+        text-align: center;
+    }
+    .rateColorDanger{
+        background: #FF4545;
+    }
+    .rateColorWarning{
+        background: #FFFF00;
+    }
+    .rateColorSuccess{
+        background: #00B050;
+    }
+    .bg-duedate-warning{
+        background: rgba(255,255,153,0.5);
+    }
+    .bg-duedate-danger{
+        background: rgba(255,174,174,0.5);
+    }
+    .panel.stt{
+        box-shadow: 0.5rem 0.5rem 1rem #272727;
+        /* cursor: pointer; */
+    }
+    #tblOwner thead th, #tblMyTask thead th{
+        background-color: #FFC000;
+        text-align: center;
+    }
+    .form-xs {
+        height: 26px;
+    }
+    .btn-xs {
+        width: 26px;
+        height: 26px;
+        padding: 3px;
+        margin: 0px 2px;
+    }
+    .resource {
+        padding: 5px;
+    }
+    .sm-padding {
+        margin-bottom: 5px;
+    }
+    .resource .rcontent {
+        width: 100%;
+        height: max-content;
+        display: table;
+        background-color: #fff;
+        border-radius: 3px;
+        border: solid 1px rgba(0, 0, 0, 0.2);
+    }
+    .resource .rcontent .information {
+        border-right: solid 1px rgba(0, 0, 0, 0.2);
+    }
+    .avatar {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        top: 15px;
+        border: solid 1px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .resource .information .rank {
+        width: 26px;
+        height: 26px;
+        position: relative;
+        top: 38px;
+        padding: 3px 5px;
+        margin-left: 5px;
+        background-color: #7cb5ec;
+        display: table;
+        text-align: center;
+    }
+    .resource .information .rank.rank-1 {
+        background-color: #acc284;
+    }
+    .resource .information .rank.rank-2 {
+        background-color: #acc284;
+    }
+    .table-sticky tr th{
+        background-color: #FFC000;
+        text-align: center;
+    }
+    .table-sticky tr td{
+        text-align: center;
+    }
+    .table-sticky thead th {
+        position: -webkit-sticky;
+        position : sticky;
+        top : -1px;
+    }
+    /* here is the trick */
+    .table-sticky tbody:nth-of-type(1) tr:nth-of-type(1) td {
+        border-top: none !important;
+    }
+    .table-sticky thead th {
+        border-top: none !important;
+        border-bottom: none !important;
+        box-shadow: inset 0 1px 0 #ddd,
+                    inset 0 -1px 0 #ddd;
+    }
+    .table-small > thead > tr > th, .table-small > tbody > tr > th, .table-small > tfoot > tr > th, .table-small > thead > tr > td, .table-small > tbody > tr > td, .table-small > tfoot > tr > td {
+        padding: 3px 5px;
+    }
+    .modal-body {
+        padding-top: 5px;
+    }
+    .media-list{
+        padding: 0;
+    }

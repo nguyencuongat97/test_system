@@ -1,0 +1,43 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #header{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 1px;
+	margin-bottom: 5px;
+	background: #333;
+	color: #ccc;
+} */
+
+
+.panel-re{
+    padding-bottom: 50px;
+    background-color: #272727;
+}
+
+.datetimerange{
+    border-bottom-color: #333 !important;
+}
+.table thead th {
+    position: -webkit-sticky;
+    position : sticky;
+    top : -1px;
+    background: #52585a;
+    color: #fff;
+    border-bottom: solid 2px #fff;
+    border-top: solid 2px #fff;
+    /* box-shadow: 1px 1px #fff  */
+                /* 1px 1px #fff; */
+}
+/* here is the trick */
+/* .table-sticky tbody:nth-of-type(1) tr:nth-of-type(1) td {
+    border-top: none !important;
+} */
+.table-sticky thead th {
+    border-top: none !important;
+    border-bottom: none !important;
+    box-shadow: inset 0 1px 0 #ccc,
+                inset 0 -1px 0 #ccc;
+}

@@ -1,0 +1,125 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active{
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.select-shift{
+    background-color: #333333; 
+    color: #fff;
+}
+
+.select-shift:hover{
+    background-color: #232323; 
+    color: #fff;
+}
+
+.select-shift.selected{
+    background: #222222;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#header{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 1px;
+	margin-bottom: 5px;
+	background: #333;
+	color: #ccc;
+}
+
+#tblDetail tr th{
+    background-color: #F79646 !important;
+    color: #272727;
+    text-align: center;
+}
+#tblDetail tr th, #tblDetail tr td{
+    font-size: 18px;
+}
+
+.target td{
+    background-color: #04318F !important;
+    color: #fff;
+}
+.cWarning{
+    background-color: #FFFF00 !important;
+    color: #272727 !important;
+}
+.accumulate td{
+    background-color: #92D050 !important;
+    color: #272727;
+}
+
+.noData{
+    background: #999;
+    color: #333;
+}
+
+.drlMenu{
+    margin-left: 15px;
+    float: left;
+}
+
+.disableSelect{
+    display: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px !important;
+}
+
+#mydiv {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 500px;
+    left: 400px;
+    top: 150px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6), 5px 6px 7px rgba(0, 0, 0, 0.6);
+}
+
+#mydiv.show{
+    display: block;
+}
+
+#mydivheader {
+    padding: 2px;
+    cursor: move;
+    z-index: 10;
+    background-color: #272727;
+    color: #fff;
+}
+.table-sticky thead th {
+    position: -webkit-sticky;
+    position : sticky;
+    top : -1px;
+}
+/* here is the trick */
+.table-sticky tbody:nth-of-type(1) tr:nth-of-type(1) td {
+    border-top: none !important;
+}
+.table-sticky thead th {
+    border-top: none !important;
+    border-bottom: none !important;
+    box-shadow: inset 0 1px 0 #fff,
+                inset 0 -1px 0 #fff;
+}
+
+
+

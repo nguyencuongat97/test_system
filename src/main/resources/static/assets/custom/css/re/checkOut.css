@@ -1,0 +1,40 @@
+.pieChart{
+    display: none;
+}
+.rate-percent{
+    /*font-size: 11px;
+    margin-top: 5px;*/
+    font-weight: 100;
+    color: black;
+}
+.rate-red{
+    background: #e75849;
+    font-weight: bold;
+    color: #333;
+}
+.rate-yellow{
+    background: #ffaa00;
+    font-weight: bold;
+    color: #333;
+}
+.rate-green{
+    background: #02ba6b;
+    font-weight: bold;
+    color: #333;
+}
+.table-custom > thead > tr > th,
+.table-custom > tbody > tr > th,
+.tabl-custom > tfoot > tr > th,
+.table-custom > thead > tr > td,
+.table-custom > tbody > tr > td,
+.table-custom > tfoot > tr > td {
+  padding: 8px 13px;
+  line-height: 1.5384616;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+/*.bg-dark-gray > tr > th{
+    text-align: center;
+}*/
